@@ -19,7 +19,7 @@ This module exports one function:
 
 `opt` is an options object that supports these keys:
 
-* `ffVerMajor` (required): Firefox major version.
+* `ffVerMajor` (required): Firefox major version, as an integer number.
 
 
 `prefs` is a dictionary of prefs you want to lock.
@@ -33,7 +33,7 @@ that joins them with newlines and also appends a trailing newline.
 Usage
 -----
 
-see [test/usage.js](test/usage.js)
+see [test/usage.mjs](test/usage.mjs)
 
 
 
