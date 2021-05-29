@@ -1,0 +1,33 @@
+{ "name": "genconf-firefox-lockedprefs-pmb",
+  "version": "0.1.0",
+  "description": "Render a dictionary of prefs as Firefox locked pref config file format.",
+  "keywords": [],
+
+  "author": "M.K. (https://github.com/mk-pmb)",
+  "homepage": "https://github.com/mk-pmb/genconf-firefox-lockedprefs-pmb-js/#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mk-pmb/genconf-firefox-lockedprefs-pmb-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mk-pmb/genconf-firefox-lockedprefs-pmb-js/issues"
+  },
+  "contributors": [],
+
+  "private": false, "license": "ISC",
+  "scripts": { "test": "nodemjs test/all.mjs" },
+  "directories": { "test": "test" },
+  "eslintConfig": { "extends": "nodejs-pmb" },
+
+  "dependencies": {},
+  "devDependencies": {
+    "equal-pmb": "^0.1.24",
+    "eslint-config-nodejs-pmb": "^0.0.6",
+    "nodemjs": "^0.1.9",
+    "p-fatal": "^0.1.3",
+    "usnam-pmb": "^0.2.5"
+  },
+
+
+  "npm vs. BOM = Unexpected token": "-*- coding: UTF-8 -*-"
+}
