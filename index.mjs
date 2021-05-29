@@ -8,7 +8,11 @@ const EX = function fmtLockedPref(opt, prefs) {
   const pair = EX.mkPairFunc(fmt);
   const data = [
     ...(fmt.head || []),
-    ...Object.keys(prefs).sort().map(key => pair(key, prefs[key])),
+    ...Object.keys(prefs).sort().map((key) => {
+      const val = prefs[key];
+      if (val === undefined) { return val; }
+      return pair(key, val);
+    }).filter(Boolean),
     ...(fmt.tail || []),
   ];
   data.toString = joinNl;

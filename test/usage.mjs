@@ -12,6 +12,7 @@ import fmtLockPrefs from '..';
   const prefs = {
     'distribution.about': 'ÄǸƧÍ €ñçôðïŋğ',
     'browser.shell.checkDefaultBrowser': false,
+    thisPropIgnored: undefined,
   };
   const aboutEnc = ('"\\u00C4\\u01F8\\u01A7\\u00CD '
       + '\\u20AC\\u00F1\\u00E7\\u00F4\\u00F0\\u00EF\\u014B\\u011F"');
