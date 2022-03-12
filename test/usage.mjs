@@ -5,7 +5,7 @@ import 'usnam-pmb';
 
 import eq from 'equal-pmb';
 
-import fmtLockPrefs from '..';
+import fmtLockPrefs from '../index.mjs';
 
 
 (function testAnsiEncoding() {

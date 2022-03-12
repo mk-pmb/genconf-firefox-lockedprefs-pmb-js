@@ -1,5 +1,5 @@
 { "name": "genconf-firefox-lockedprefs-pmb",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Render a dictionary of prefs as Firefox locked pref config file format.",
   "keywords": [],
 
@@ -14,6 +14,7 @@
   },
   "contributors": [],
 
+  "main": "index.mjs",
   "private": false, "license": "ISC",
   "scripts": { "test": "nodemjs test/all.mjs" },
   "directories": { "test": "test" },
